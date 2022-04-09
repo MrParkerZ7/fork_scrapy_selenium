@@ -2,6 +2,7 @@ import json
 
 import scrapy
 from scrapy.http import Headers
+from sel_scrapy.items import LaptopItem
 
 
 class LazadaSpManualSpider(scrapy.Spider):
